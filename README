@@ -1,0 +1,85 @@
+USAGE:
+.gb H.in
+
+
+
+
+Description of the program logic.
+
+There are several types of simulation cells during the process of GB construction
+IC - input cell, it should be primitive hexagonal lattice with four index system
+GC - cell with one grain
+GBC - cell with grain boundary
+
+
+1. According to three directions uvtw1, uvtw2 and uvtw3 program choose 3 vectors r1, r2, r3 of GC. uvtw1 is usually perpendicular (or close to it) to the grain boundary plane. uvtw2 is usually sliding direction; uvtw3 is usually rotation axis of boundary
+If test parameter is equal to 1, it shows additional information including lengths of the vectors, volume of GC, number of atoms and others. 
+
+2. Program rotate GC to combine the vectors with coordinate axes in the following sequence:
+a) r3 with z axis
+b) normal for hkl with x axis; i.e. hkl plane will be perpendicular to x axis
+because sliding direction lies in plane you will have r2 combined with y, if r2 is perpendicular to r3
+If you have orthogonal cell, r1 automatically combined with x.
+
+3. Then GC is filling with atoms. Technically program makes translations of IC and includes only atoms which are in GC. Be careful to have enough periodcell values.
+
+4. Construction of boundary. Method make_boundary(); It makes mirror operation along x axis. It uses slicepms values. See description.
+
+5. Method delnear allows to delete atoms which are closer than value of deldist parameter. See description
+
+6. Cell is shifted according to shiftcell parameters.
+
+7. Finally program writes geometry files
+List of input parameters:
+acell, a_c_conv, rprim, natom, xred, typat, periodcell, hkl1
+Description of input parameters:
+acell
+a_c_conv
+Mnemonics: convergence of cell geometry according to a and c lattice parameters
+Variable type: db array a_c_conv[4] 
+Default is 0 0 0 0
+//	[0] version - start number of version
+//	[1] nva- value in percents; lattice parameter a will be changed in [-nva, +nva] range
+//	[2] nvc - the same for c parameter
+//	[3] nsteps - number of values between ranges
+
+
+rprim
+natom
+xred
+typat
+periodcell
+
+hkl1
+Mnemonics: Miller indexes of boundary plane
+Variable type: int array hkl1[3] 
+Default is 0 0 0 
+Normally this is the boundary plane. The parameter allows to calculate spacing between hkl1 planes.
+
+uvtw1
+uvtw2
+uvtw3
+mul
+name
+deldist
+Mnemonics: Parameters of slicing
+Variable type: dp deldist
+Default is 3 (Bohr)
+The atoms which are situated closer than deldist will be deleted.
+
+
+slicepms
+Mnemonics: Parameters of slicing
+Variable type: dp array slicepms[3] 
+Default is 0 0 0 
+Parameters depend on spacing, which is the spacing between hkl1 planes. 
+The first parameter determines the number of layers with min_spacing length which will be sliced from both parts of GC. Usually it allows to choose different boundaries.
+The second parameter controls number of layers sliced only from one side. This allows to choose two identical boundaries in GBC.
+The third parameter says program the number of min_spacing lengths in spacing. This allows to determine min_spacing. min_spacing = spacing / slicepms[2]. Should be calculated by user or can be found by checking.
+
+
+shiftcell
+Mnemonics: Shift of simulation cell
+Variable type: dp array shiftcell[2] 
+Default is 1 0 
+The first number determines direction of shift: 0 along r1, 1 along r2 and 2 along r3. The second number determines value of shift in the lengths of corresponding vectors.
