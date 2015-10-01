@@ -1,4 +1,5 @@
 *.o
+*~
 diffraction
 out/
 old/
