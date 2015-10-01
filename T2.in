@@ -1,0 +1,87 @@
+#T2 twin in hcp titanium {11-21}<-1-126>
+#rotation axis is [1-100]
+
+#Now I switched to Angstroms!!!
+#acell 5.5607649512  5.5607649512  8.7411694931
+
+rprim
+sqrt(0.75) -5.0000000000E-01  0.0000000000E+00
+0.0000000000E+00  1.0000000000E+00  0.0000000000E+00
+0.0000000000E+00  0.0000000000E+00  1.0000000000E+00
+
+
+natom 2
+xred
+0.0  0.0  0.0
+2/3  1/3  0.5
+#1/3  2/3  0.5
+znucl 22 #200
+
+typat 1 1 #2
+
+periodcell -9 9 -9 9 -9 9 #copy cell 0 times in -x direction, 14 times in x direction and so on. 
+
+hkl1 1 1 1 
+
+uvtw1 5 5 -10 3  #directions in four index system
+uvtw2 -1 -1 2 6  
+uvtw3 1 -1 0 0
+
+mul 1/3 1/3 1 
+
+#deldist 2 Bohr
+deldist 1.06 #now in Angstroms!!!
+
+# shiftatoms 1 1 3 -2/6 #shift: 1)in grain B; 2)layer B; 3)along uvtw3; by -2/6 of uvtw3 !!!for larger uvtw3 can be incorrect!!!
+
+shiftcell 0 0.15
+
+#name T2(1) slicepms 2 2 2 # boundary Lane2011, 64 atoms.
+#name T2(2) slicepms 0 2 2 # boundary Lane2011, 80 atoms.
+#test 1
+
+
+#parameters for calculations 
+
+slicepms 2 2 2 # 64 atoms
+
+#acell 2.94  2.94  4.65 #angstrom
+#name t21b_ml a_c_conv 1 4 4 4 #start version, change a [-x% : +x%], change c [-y% : +y%], number of steps
+
+#calctype bulk_scale         a_c_conv 1 0 0 1 #only one structure with given acell
+
+#name t21bC.f.93             acell  2.9434  2.9434  4.6681      #&0.0002 &0.0003 &400 &600
+
+#calctype gb_scale
+#name t21g 
+#acell 2.9380 2.9380 4.6427 #after fit_hex(0.0002,0.0003,400,600, 't21b_ml', '83', range(1,17), calc)
+#a_c_conv 1 -0.3 0.5 5 #now for excess volume
+
+#Segregation
+
+#calctype gb_scale      a_c_conv 1 -0.3 0.5 5 # these will be used only to take r1, r2 and r3, 
+                                             # while xred will be added from relaxed positions
+
+#name t21gCi1             acell  2.9434  2.9434  4.6681    # for t21gCv (in volume of grain) and t21gCi (at interface)
+
+#name t21bO_template   #calctype bulk_scale  a_c_conv 1 0 0 1            acell  2.94040  2.94040  4.65721 # the same as t111bO.f.93kp9_template
+# name t21bO.f.93_template   calctype bulk_scale  a_c_conv 1 0 0 1           acell  2.94008  2.94008  4.66010 # fit parameters are &0.00002 &0.00003 &4000 &6000 #was made later just for check. Was not used for segregation.
+
+
+
+# name t21gO_template   calctype gb_scale    a_c_conv 1 -0.3 0.5 5       acell  2.94040  2.94040  4.65721 # fit parameters are &0.00002 &0.00003 &4000 &6000
+name t21gO_test2   calctype gb_scale    a_c_conv 1 -0.3 0.5 5       acell  2.94040  2.94040  4.65721 # fit parameters are &0.00002 &0.00003 &4000 &6000
+
+
+
+
+#!!!checking shift
+#!!! Attention! for bigger sizes the shift of atoms can be incorrect! please check! shift was already included
+#name t21sg     calctype gb_scale     a_c_conv 1 -0.3 0.5 5      acell 2.9380 2.9380 4.6427    
+
+
+
+# name t21gCO_template   calctype gb_scale    a_c_conv 1 -0.3 0.5 5    acell 2.94867 2.94867   4.67339  # calc_ac from t21bC.f.93.1 and t21bO.93.1
+
+
+test 1

@@ -1,0 +1,95 @@
+#Laves
+
+rprim
+sqrt(0.75) -5.0000000000E-01  0.0000000000E+00
+0.0000000000E+00  1.0000000000E+00  0.0000000000E+00
+0.0000000000E+00  0.0000000000E+00  1.0000000000E+00
+
+
+natom 12
+
+#red. coord. from Suklyun Hong*, C.L. Fu, Intermetallics 7 (1999) 5-9, 
+#Phase stability and elastic moduli of Cr2Nb by first-principles
+#calculations
+
+#xred 0 0 0
+xred
+0.0  0.0  0.0
+0.0  0.0  0.5
+0.3390  0.1695  1/4
+0.8305  0.1695  1/4
+0.8305  0.6610  1/4
+0.1695  0.8305  3/4
+0.1695  0.3390  3/4
+0.6610  0.8305  3/4
+1/3 2/3 0.061
+1/3 2/3 0.439
+2/3 1/3 0.561
+2/3 1/3 0.939
+
+
+
+typat 1 1 1 1 1 1 1 1 2 2 2 2 znucl 26 74
+
+#periodcell -20 20 -20 20 -20 20     
+periodcell -15 15 -15 15 -15 15  
+#perpendicular to x; hence uvtw2 will concide with y, like input rprim 
+#should be parrallel to uvtw2 and uvtw3
+
+
+
+#uvtw1  0   1  -1   2 #directions in four index system
+#uvtw2  0  -3   3   2  
+#uvtw3  2  -1  -1   0
+
+#mul 1 1 1 
+
+
+
+#uvw1   1  0     0      uvw2   0  1      0     uvw3    0  0      1 mul 4 4  5 
+
+#
+#Orientation 1:
+name fe2w_1_xz    sixvalues -10 10 0 4 -10 10     hkl1    0  2  -1     uvtw1   -2 7 -5 -3 uvtw2  3 -1 -2 2   uvtw3    5 -4 -1 -6  mul 1/3 1 1/3  # 
+#name fe2w_1_yz    sixvalues 0 4 -10 10 -10 10     hkl1    0  2  -1     uvtw1   -2 7 -5 -3 uvtw2  3 -1 -2 2   uvtw3    5 -4 -1 -6  mul 1/3 1 1/3  # 
+ 
+#Orientation 2:
+#name fe2w_2_           sixvalues 0 4 -10 10 -10 10  hkl1    0  2  0     uvtw1   0 1 -1 0  uvtw2  -2 1 1 0   uvtw3    0  0 0 -1  mul 3 2 3 
+
+#Orientation 4
+#name fe2w_4_xz           sixvalues -10 10 0 4 -10 10  hkl1    0  1       3  uvtw1   1  7   -8  12 uvtw2  -13  2  11   3   uvtw3    1 -2   1   1  mul 1/3 1/3 2  
+#name fe2w_4_yz           sixvalues 0 4 -10 10 -10 10  hkl1    0  1       3  uvtw1   1  7   -8  12 uvtw2  -13  2  11   3   uvtw3    1 -2   1   1  mul 1/3 1/3 2  
+
+
+#5 (-1-10)bcc // (10-3)laves,   [1-1-3]bcc // [-3 3 -1]  [-3 3 0 -1  ] Li
+#Orientation 5
+
+#name fe2w_5_xz           sixvalues -10 10 0 4 -10 10  hkl1    1  0 -3  uvtw1  3 0 -3 -5 uvtw2  -5 -8 13 -6   uvtw3    -3 3 0 -1  mul 1 1/3 1  
+#name fe2w_5_yz           sixvalues 0 4 -10 10 -10 10  hkl1    1  0 -3  uvtw1  3 0 -3 -5 uvtw2  -5 -8 13 -6   uvtw3    -3 3 0 -1  mul 1 1/3 1  
+
+
+
+calctype planes            
+#name fe2w           a_c_conv  0.9 1 0.25 0.75    #here used as cut values; #xred cut
+#name fe2w_xcart           a_c_conv  16 19 -20 20    #here used as cut values; #xcart cut # only one center in the end
+#name fe2w_xcart           a_c_conv  0 3 -20 20    #here used as cut values; #xcart cut
+#name fe2w_xcart           a_c_conv  10 19 -80 80    #here used as cut values; #xcart cut
+
+#name fe2w_wide           sixvalues -10 10 -2 2 -10 10    #here used as cut values; #xcart cut
+#name fe2w_widey           sixvalues -10 10 -10 10 -2 2 
+
+
+
+
+
+
+#calctype planes            a_c_conv  0.0 1 0 1    #here used as cut values;
+
+
+# lattice constants from  [Pavlu2012] 
+#AB InItIo Study of C14 LAveS phASeS In fe-BASed SySteMS 
+#J. Min. Metall. Sect. B-Metall. 48 (3) B (2012) 395 - 401
+       acell  4.74  4.74  7.7  
+ 
+
+test 1

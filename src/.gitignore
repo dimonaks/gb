@@ -1,0 +1,9 @@
+*.o
+diffraction
+out/
+old/
+xyz/
+gmon.out
+gb4.0
+log
+a_and_c

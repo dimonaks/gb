@@ -1,0 +1,55 @@
+#HP hexagonal hcp titanium cell with pores for tests
+
+rprim
+sqrt(0.75) -5.0000000000E-01  0.0000000000E+00
+0.0000000000E+00  1.0000000000E+00  0.0000000000E+00
+0.0000000000E+00  0.0000000000E+00  1.0000000000E+00
+
+
+natom 4
+xred
+0.0  0.0  0.0
+2/3  1/3  0.5
+1/3  2/3  0.25
+1/3  2/3  0.75
+znucl 22 200
+typat 1 1 2 2 
+
+
+
+#xred
+1/3  2/3  0.25
+1/3  2/3  0.75
+#znucl 15
+#typat 1 1 
+
+
+
+periodcell -15 15 -15 15 -15 15 #copy cell 0 times in -x direction, 14 times in x direction and so on. 
+
+
+hkl1   1  0  0    # perpendicular to x; hence uvtw2 will concide with y, like input rprim     should be parrallel to uvtw2 and uvtw3
+
+uvtw1  2 -1 -1  0  
+uvtw2 -1  2 -1  0  
+uvtw3  0  0  0  1
+
+ 
+
+
+#fitted
+calctype bulk_scale         a_c_conv 1 0 0 1 #only one structure with given acell
+
+
+
+mul  4/3   4/3     3 #96 atoms
+
+#name hps443CO_template          acell  2.9397 2.9397 4.6692 # was determined summing excess volumes for C and O; function calc_ac()
+
+
+
+#name hps443CO2_template          acell  2.9422 2.9422  4.6727 # was determined summing excess volumes for CO and O; function calc_ac()
+name hps443C2O2_template          acell  2.94604 2.94604 4.6795 # was determined summing excess volumes for CO2 and C; function calc_ac()
+
+
+test 1

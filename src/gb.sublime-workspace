@@ -1,0 +1,1185 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ve",
+				"version"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"sh",
+				"shiftatoms"
+			],
+			[
+				"calc",
+				"calctype"
+			],
+			[
+				"xc",
+				"xc"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"xr",
+				"xr"
+			],
+			[
+				"or",
+				"or"
+			],
+			[
+				"uv",
+				"uvtw"
+			],
+			[
+				"u",
+				"uvtw"
+			],
+			[
+				"nor",
+				"normal_to_boundary"
+			],
+			[
+				"no",
+				"normal_to_boundary"
+			],
+			[
+				"xred",
+				"xred"
+			],
+			[
+				"cal",
+				"calc_in"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"ds",
+				"dsqrmin"
+			],
+			[
+				"lo",
+				"localstepsk"
+			],
+			[
+				"loc",
+				"localstepsi"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"po",
+				"set_potential1"
+			],
+			[
+				"find",
+				"find_pores"
+			],
+			[
+				"xre",
+				"xredporeslocal"
+			],
+			[
+				"dq",
+				"dsqrmin"
+			],
+			[
+				"s",
+				"steps"
+			],
+			[
+				"fit_fun",
+				"fit_func_gb"
+			],
+			[
+				"set",
+				"set_NPAR"
+			],
+			[
+				"xcart",
+				"xcart"
+			],
+			[
+				"des",
+				"des"
+			],
+			[
+				"Run",
+				"RuntimeError"
+			],
+			[
+				"read_",
+				"read_geometry"
+			],
+			[
+				"ver",
+				"verlist_from"
+			],
+			[
+				"len",
+				"len_units"
+			],
+			[
+				"va",
+				"vasp_params"
+			],
+			[
+				"energy",
+				"energy_sigma0"
+			],
+			[
+				"en",
+				"energy_sigma0"
+			],
+			[
+				"vol",
+				"volumes"
+			],
+			[
+				"make",
+				"make_boundary"
+			],
+			[
+				"to",
+				"set_tolmxf"
+			],
+			[
+				"shift",
+				"shiftcell"
+			],
+			[
+				"db",
+				"db"
+			],
+			[
+				"in",
+				"in"
+			],
+			[
+				"over",
+				"override"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"energy_",
+				"energy_free"
+			],
+			[
+				"N",
+				"NPAR"
+			],
+			[
+				"add",
+				"add_nbands"
+			],
+			[
+				"fre",
+				"free_energy"
+			],
+			[
+				"isefrom",
+				"ise_from"
+			],
+			[
+				"new",
+				"newblockfolder"
+			],
+			[
+				"niter",
+				"niter_old"
+			],
+			[
+				"At",
+				"AttributeError"
+			],
+			[
+				"kpoint",
+				"conv_kpoint"
+			],
+			[
+				"print",
+				"print_and_log"
+			],
+			[
+				"prin",
+				"print_and_log"
+			],
+			[
+				"inp",
+				"input_geo"
+			],
+			[
+				"None",
+				"None"
+			],
+			[
+				"run",
+				"runBash"
+			],
+			[
+				"struct",
+				"struct_des"
+			],
+			[
+				"ru",
+				"runBash"
+			],
+			[
+				"vasp",
+				"vasp_params"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"rpim",
+				"rprimd"
+			],
+			[
+				"vect",
+				"vectormath"
+			],
+			[
+				"vec",
+				"vectormath"
+			],
+			[
+				"nl",
+				"nl"
+			],
+			[
+				"nk",
+				"nk"
+			],
+			[
+				"vecto",
+				"vector_dec"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 6837,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gb.h",
+			"settings":
+			{
+				"buffer_size": 4708,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dim/Simulation_wrapper/gb4/Makefile",
+			"settings":
+			{
+				"buffer_size": 1429,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "*.o\ndiffraction\nout/\nold/\nxyz/\ngmon.out\ngb4.0\nlog\na_and_c\n",
+			"file": ".gitignore",
+			"file_size": 0,
+			"file_write_time": 130881656860034711,
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dim/Simulation_wrapper/gb4/C1.in",
+			"settings":
+			{
+				"buffer_size": 2925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dim/Simulation_wrapper/gb4/CSL7.in",
+			"settings":
+			{
+				"buffer_size": 1822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dim/Simulation_wrapper/gb4/T1.in",
+			"settings":
+			{
+				"buffer_size": 4052,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dim/Simulation_wrapper/gb4/T2.in",
+			"settings":
+			{
+				"buffer_size": 2881,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dim/Simulation_wrapper/gb4/H.in",
+			"settings":
+			{
+				"buffer_size": 4843,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dim/Simulation_wrapper/gb4/HPot.in",
+			"settings":
+			{
+				"buffer_size": 990,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "func.cpp",
+			"settings":
+			{
+				"buffer_size": 68384,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vector_class.cpp",
+			"settings":
+			{
+				"buffer_size": 1031,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fortran/readin.F90",
+			"settings":
+			{
+				"buffer_size": 7998,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/siman1.sublime-build",
+	"command_palette":
+	{
+		"height": 372.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/dim/Simulation_wrapper/gb4/T1.in",
+		"/home/dim/Simulation_wrapper/gb4/T2.in",
+		"/home/aksenov/programs/grain_boundary/gb4/H.in",
+		"/home/aksenov/programs/grain_boundary/gb4/CSL7.in",
+		"/home/aksenov/programs/grain_boundary/gb4/C1.in",
+		"/home/aksenov/programs/grain_boundary/gb4/T2.in",
+		"/home/aksenov/programs/grain_boundary/gb4/T1.in",
+		"/home/aksenov/programs/grain_boundary/gb4/src/func.cpp",
+		"/home/aksenov/programs/grain_boundary/gb4/src/readin.cpp",
+		"/home/aksenov/programs/grain_boundary/gb4/O1.in",
+		"/home/aksenov/programs/grain_boundary/gb4/src/temp.cpp",
+		"/home/aksenov/programs/grain_boundary/gb4/laves.in",
+		"/home/aksenov/programs/grain_boundary/gb4/bccfe.in",
+		"/home/aksenov/programs/grain_boundary/gb4/HP.in",
+		"/home/aksenov/programs/grain_boundary/gb4/src/fortran/readin.F90",
+		"/home/aksenov/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/aksenov/programs/grain_boundary/gb4/makefile4.0",
+		"/home/aksenov/programs/grain_boundary/gb4/src/gb.h",
+		"/home/aksenov/programs/grain_boundary/gb4/src/main.cpp",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/siman1.sublime-project",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T2/t21g.93/2.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T2/t21g.935/11.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/geo/t111g/T111Gtarget.100.in.geo",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/drafts_python.py",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/make_findpores",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/log",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T2/t21g.93/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T2/t21g.935/POTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T2/t21g.935/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/anfuncs.py",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/fit_hex.py",
+		"/home/aksenov/programs/grain_boundary/gb4/out/T21B_ML/grainA_s/T21B_MLgrainA_s.1.in.geo",
+		"/home/aksenov/programs/grain_boundary/gb4/out/T21B_ML/bulk_s/T21B_MLbulk_s.1.in.geo",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/21.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/old_21.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T2/t21b_ml.83/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9291/11.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/100.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/23.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/22.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/24.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/100.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9282/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/geo/t111g/t111g.inherit.r2r3.21.geo",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111b.2302/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111b.2302/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/geo/t111g/t111g.inherit.full.11.geo",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9291/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9291/t111g.9291.run",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/C1/c1b_r.830/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/geo/t111g/T111Gtarget.1.in.geo",
+		"/home/aksenov/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/aksenov/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/6.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/kpoint_conv/o1b.203k1/OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/kpoint_conv/o1b.203k1/KPOINTS",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/C1/c1g.929/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/2.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111b_r.8302/1.OUTCAR",
+		"/home/aksenov/programs/grain_boundary/gb4/out/C1G/target/C1Gtarget.2.in.geo",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111b_ml.8301/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/T1/t111g.9292/3.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/bulk/c1b.230/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/C1/c1g.929/10.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/classes.py",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/C1/c1g.929/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/C1/c1g.929/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/C1/c1g.929/5.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/analys.py",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/C1/c1b_r.830/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.216/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/bulk/c1b_ml.830/7.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/bulk/c1b_ml.830/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/bulk/c1b_ml.830/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/bulk/c1b_ml.830/7.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/bulk/c1b_ml.830/2.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/bulk/c1b_ml.830/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/bulk/c1b.230/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/a_c_convergence/fit_hex.out",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/bulk/c1b.230/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/ecut_conv/o1b.215/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.208/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/geo/c1b/C1bulk.1.in.geo",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/sets.py",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/ecut_conv/o1b.215e4/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/tsmear_conv/o1b.216ts1/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b_ml.802/41.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b_ml.802/26.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/kpoint_conv/o1b.203/OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/geo/o1b/O1bulk.in.geo",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/kpoint_conv/o1b.203/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/kpoint_conv/o1b.203/KPOINTS",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/kpoint_conv/o1b.203/POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.802/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b_ml.801/39.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b_ml.801/37.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b_ml.801/27.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b_ml.801/38.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.216/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.218/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.218/POTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/a_c_convergence/o1b_ml.800/find_eq_lat_with_c_a_m.py",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/a_c_convergence/o1b_ml.800/find_eq_lat_with_c_a_m.in",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/a_c_convergence/o1b_ml.800/a_c.out",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/a_c_convergence/o1b_ml.800/equilibrium_lat_with_c_a_m.in",
+		"/home/aksenov/.config/sublime-text-2/Packages/User/siman1.sublime-build",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/grad2.py",
+		"/home/aksenov/programs/grain_boundary/gb4/src/vector_class.cpp",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/npar_conv/o1b.213/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/npar_conv/o1b.213np3/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/ecut_conv/o1b.215/OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/o1b_ml.800/o1b_ml.800.run",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/npar_conv/o1b.213/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/npar_conv/o1b.213/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.209/OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.210/1.OUTCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/npar_conv/o1b.213/KPOINTS",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/npar_conv/o1b.213/o1b.213.run",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.210/INCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.210/o1b.210.run",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.210/KPOINTS",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/other/o1b.210/1.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/o1b_ml.900/2.POSCAR",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/o1b_ml.900/o1b_ml.900.run",
+		"/home/aksenov/programs/Simulation_wrapper/siman1/pure/o1b_ml.800/KPOINTS"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"shift_gra",
+			"xred",
+			"readin_",
+			"readin",
+			"return_a",
+			"3",
+			"2",
+			"1",
+			",",
+			")",
+			"(",
+			"!",
+			"i_sort",
+			"grain",
+			"znucl",
+			"combine_z_with",
+			"arrv",
+			"show_p",
+			"show_poss",
+			"read",
+			"periodicfill_and",
+			"readin",
+			"typat",
+			"a_c_conv",
+			"xred[",
+			"rotate",
+			"show_possible_r2",
+			"angle be",
+			"angle",
+			"angle be",
+			"angle between",
+			"because",
+			"here we",
+			"angle b",
+			"three2four",
+			"for_index_to",
+			"four_",
+			"direction is n",
+			"direction",
+			"three2four",
+			"readin",
+			"normal_to_b",
+			"normal_to",
+			"recip",
+			"hkl1",
+			"shift_cell(",
+			"it_out",
+			"kk",
+			"jj",
+			"ii",
+			"maxat",
+			"input_calculation",
+			"ctypes.c_float",
+			"c_float",
+			"rate",
+			"refsqr",
+			"double",
+			"lins",
+			"eNcut",
+			"ecut",
+			"W(low)/X(q)",
+			"total dri",
+			"loop",
+			"i",
+			"xred",
+			"zz",
+			"yy",
+			"xx",
+			"find",
+			"hist",
+			"eV_A_to_J_m",
+			"war",
+			"type_of_calc",
+			"up2",
+			"13",
+			"total dr",
+			"TOTAL-FORCE",
+			"FORCE",
+			"forces",
+			"total dr",
+			"calc_kspacings(",
+			"no len",
+			"time",
+			"total dr",
+			"vectors",
+			"total dr",
+			"point",
+			"npar",
+			"inher",
+			"in",
+			"upda",
+			"read_li",
+			"complete",
+			"cal",
+			"znucl",
+			"direc",
+			"position",
+			"direct",
+			"coord",
+			"base_id",
+			"read_ge",
+			"read_geometry(",
+			"\"input_geo\"",
+			"total drift",
+			"total dr",
+			"total drift",
+			"des",
+			"isif",
+			"total d",
+			"] *",
+			"direct lattice vectors",
+			"vectors",
+			"zeros",
+			"total d",
+			"read_result",
+			"total dr",
+			"warning",
+			"total dr",
+			"total dri",
+			"force",
+			"forces",
+			"self.vol =",
+			"volume",
+			"inside make_bo",
+			"specific vo",
+			"initial spe",
+			"&",
+			"shift"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"len_units",
+			"units"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5618,
+								5618
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gb.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2392,
+								2392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/dim/Simulation_wrapper/gb4/Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								804,
+								804
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/dim/Simulation_wrapper/gb4/C1.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2858,
+								2858
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1082.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/dim/Simulation_wrapper/gb4/CSL7.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 750.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/dim/Simulation_wrapper/gb4/T1.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1962.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/dim/Simulation_wrapper/gb4/T2.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								667,
+								667
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 858.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/dim/Simulation_wrapper/gb4/H.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/dim/Simulation_wrapper/gb4/HPot.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "func.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36259,
+								36259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 22302.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "vector_class.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "fortran/readin.F90",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3022,
+								3022
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1188.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.905729166666,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 268.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "gb.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,54 @@
+#Dependencies (inside the directory) of the directory ./src/57_iovars
+#
+#COPYRIGHT
+#Copyright (C) 2010 ABINIT group
+#This file is distributed under the terms of the
+#GNU General Public License, see ~abinit/COPYING
+#or http://www.gnu.org/copyleft/gpl.txt .
+#
+#THIS FILE IS GENERATED AUTOMATICALLY BY abilint.
+#To do that: config/scripts/abilint --dependencies . .
+
+CLEANFILES += \
+	interfaces_57_iovars.$(MODEXT) \
+	m_ab6_invars.$(MODEXT) 
+
+chkinp.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+chkint.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+chkint_eq.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+chkint_ge.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+chkint_le.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+chkint_ne.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+importxyz.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+ingeo.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+invars1.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+invars1m.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+invars2.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+invars2m.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+m_ab6_invars_f90.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+memorf.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+memory.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+outqmc.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+outvar1.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+outvars.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+parsefile.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 
+
+wvl_memory.$(OBJEXT): interfaces_57_iovars.$(OBJEXT) 

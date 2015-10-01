@@ -1,0 +1,21 @@
+#Dependencies (inside the directory) of the directory ./src/42_parser
+#
+#COPYRIGHT
+#Copyright (C) 2010 ABINIT group
+#This file is distributed under the terms of the
+#GNU General Public License, see ~abinit/COPYING
+#or http://www.gnu.org/copyleft/gpl.txt .
+#
+#THIS FILE IS GENERATED AUTOMATICALLY BY abilint.
+#To do that: config/scripts/abilint --dependencies . .
+
+CLEANFILES += \
+	interfaces_42_parser.$(MODEXT) 
+
+inarray.$(OBJEXT): interfaces_42_parser.$(OBJEXT) 
+
+incomprs.$(OBJEXT): interfaces_42_parser.$(OBJEXT) 
+
+instrng.$(OBJEXT): interfaces_42_parser.$(OBJEXT) 
+
+intagm.$(OBJEXT): interfaces_42_parser.$(OBJEXT) 

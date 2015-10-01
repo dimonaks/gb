@@ -1,0 +1,50 @@
+!!****d* ABINIT/32_util
+!! NAME
+!! 32_util
+!!
+!! DESCRIPTION
+!! This directory contains small utility routines that are
+!! used in different places in the ABINIT package.
+!! These utility can be related to the treatment of characters,
+!! to basic mathematical operations, or to basic chemistry and
+!! physics data.
+!!
+!! COPYRIGHT
+!! Copyright (C) 1998-2010 ABINIT group (TD)
+!! This file is distributed under the terms of the
+!! GNU General Public License, see ~abinit/COPYING
+!! or http://www.gnu.org/copyleft/gpl.txt .
+!! For the initials of contributors, see ~abinit/doc/developers/contributors.txt .
+!!
+!! CHILDREN
+!! appdig.F90
+!! atmdata.F90
+!! besjm.F90
+!! canon9.F90
+!! chknm8.F90
+!! clsopn.F90
+!! compmesh.F90
+!! derfc.F90
+!! factder.F90
+!! factorial.F90
+!! hermit.F90
+!! ifromr.F90
+!! int2char.F90
+!! int2char4.F90
+!! inupper.F90
+!! isfile.F90
+!! matcginv.F90
+!! mati3inv.F90
+!! matr3eigval.F90
+!! matr3inv.F90
+!! matrginv.F90
+!! mkherm.F90
+!! mvrecord.F90
+!! nderiv.F90
+!! normev.F90
+!! poisson.F90
+!! print_ij.F90
+!! prmat.F90
+!! status.F90
+!!
+!!***

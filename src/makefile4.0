@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#This is the next version allowing to construct different gbs
+
+#export LD_LIBRARY_PATH=/export/home/build/gcc/4.6.2/lib:/export/home/build/gcc/4.6.2/lib64
+#CPP=/export/home/build/gcc/4.6.2/bin/g++
+#F90=/export/home/build/gcc/4.6.2/bin/gfortran
+
+
+CPP=g++
+F90=gfortran
+
+${CPP}  -std=c++0x -c  \
+gb.cpp  func.cpp vector_class.cpp
+
+#Alglib compililation
+#${CPP} -c -I./alglib/src alglib/src/solvers.cpp alglib/src/ap.cpp alglib/src/alglibinternal.cpp \
+#alglib/src/linalg.cpp alglib/src/alglibmisc.cpp 
+#cp *.o fortran
+
+cd fortran
+${F90} -c -ffixed-line-length-none \
+defs_basis.F90 readin.F90 42_parser/instrng.F90 42_parser/incomprs.F90 42_parser/inreplsp.F90  32_util/inupper.F90 \
+42_parser/intagm.F90 42_parser/inarray.F90 42_parser/inread.F90 32_util/isfile.F90 
+
+cd ..
+ 
+#- 
+# add this for alglib solvers.o ap.o alglibinternal.o linalg.o alglibmisc.o \
+${CPP} -std=c++0x -o  gb \
+gb.o func.o vector_class.o \
+fortran/defs_basis.o fortran/readin.o fortran/instrng.o fortran/incomprs.o fortran/inreplsp.o  fortran/inupper.o \
+fortran/intagm.o fortran/inarray.o fortran/inread.o fortran/isfile.o \
+-lgfortran
+
+
+mv gb ../

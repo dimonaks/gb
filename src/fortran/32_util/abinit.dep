@@ -1,0 +1,48 @@
+#Dependencies (inside the directory) of the directory ./src/32_util
+#
+#COPYRIGHT
+#Copyright (C) 2010 ABINIT group
+#This file is distributed under the terms of the
+#GNU General Public License, see ~abinit/COPYING
+#or http://www.gnu.org/copyleft/gpl.txt .
+#
+#THIS FILE IS GENERATED AUTOMATICALLY BY abilint.
+#To do that: config/scripts/abilint --dependencies . .
+
+CLEANFILES += \
+	interfaces_32_util.$(MODEXT) \
+	m_exp_mat.$(MODEXT) \
+	m_kptrank.$(MODEXT) \
+	m_matrix.$(MODEXT) \
+	m_radmesh.$(MODEXT) \
+	m_special_funcs.$(MODEXT) 
+
+ctrap_gen.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+gaunt.$(OBJEXT): interfaces_32_util.$(OBJEXT) m_special_funcs.$(OBJEXT) 
+
+initylmr.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+interpol3d.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+kramerskronig.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+m_kptrank.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+m_matrix.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+m_radmesh.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+m_special_funcs.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+plm_coeff.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+plm_d2theta.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+realgaunt.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+slxyzs.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+solvbes.$(OBJEXT): interfaces_32_util.$(OBJEXT) 
+
+symq3.$(OBJEXT): interfaces_32_util.$(OBJEXT) 

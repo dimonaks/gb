@@ -1,0 +1,56 @@
+#HP hexagonal hcp titanium cell with octahedral and tetrahedral pores for solid solution model of Ti-H system
+
+rprim
+sqrt(0.75) -5.0000000000E-01  0.0000000000E+00
+0.0000000000E+00  1.0000000000E+00  0.0000000000E+00
+0.0000000000E+00  0.0000000000E+00  1.0000000000E+00
+
+
+natom 8
+xred
+0.0  0.0  0.0
+2/3  1/3  0.5
+1/3  2/3  0.25 #octa
+1/3  2/3  0.75 #octa
+0    0    3/8
+0    0    5/8
+2/3  1/3  1/8
+2/3  1/3  7/8
+
+znucl 22 200
+typat 1 1 2 2 2 2 2 2
+
+
+
+
+
+
+
+periodcell -15 15 -15 15 -15 15 #copy cell 0 times in -x direction, 14 times in x direction and so on. 
+
+
+hkl1   1  0  0    # perpendicular to x; hence uvtw2 will concide with y, like input rprim     should be parrallel to uvtw2 and uvtw3
+
+uvtw1  2 -1 -1  0  
+uvtw2 -1  2 -1  0  
+uvtw3  0  0  0  1
+
+ 
+
+
+#fitted
+calctype bulk_scale         a_c_conv 1 0 0 1 #only one structure with given acell
+
+
+
+
+
+
+
+# hs222
+mul  2/3 2/3 2 #16 atoms
+
+name hpsot222         acell  2.9341 2.9341   4.6568 #the same lattice constants as hs221.f.83
+
+
+test 1
